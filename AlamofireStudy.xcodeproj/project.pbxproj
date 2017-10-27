@@ -14,6 +14,10 @@
 		A4B6596F1F9F31A8004DC255 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B6596D1F9F31A8004DC255 /* LaunchScreen.storyboard */; };
 		A4B6597A1F9F31A9004DC255 /* AlamofireStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B659791F9F31A9004DC255 /* AlamofireStudyTests.swift */; };
 		A4B659851F9F31A9004DC255 /* AlamofireStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B659841F9F31A9004DC255 /* AlamofireStudyUITests.swift */; };
+		A4B659951F9F31EB004DC255 /* HttpMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B659921F9F31EB004DC255 /* HttpMapper.swift */; };
+		A4B659961F9F31EB004DC255 /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B659931F9F31EB004DC255 /* NetworkTools.swift */; };
+		A4B659971F9F31EB004DC255 /* URLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B659941F9F31EB004DC255 /* URLRouter.swift */; };
+		E23B983AE25CB7F1823C83C6 /* Pods_AlamofireStudy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A107D394217C194D4469D75C /* Pods_AlamofireStudy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A107D394217C194D4469D75C /* Pods_AlamofireStudy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlamofireStudy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B659611F9F31A8004DC255 /* AlamofireStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamofireStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B659641F9F31A8004DC255 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4B659661F9F31A8004DC255 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,11 @@
 		A4B659801F9F31A9004DC255 /* AlamofireStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlamofireStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B659841F9F31A9004DC255 /* AlamofireStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireStudyUITests.swift; sourceTree = "<group>"; };
 		A4B659861F9F31A9004DC255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4B659921F9F31EB004DC255 /* HttpMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpMapper.swift; sourceTree = "<group>"; };
+		A4B659931F9F31EB004DC255 /* NetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
+		A4B659941F9F31EB004DC255 /* URLRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLRouter.swift; sourceTree = "<group>"; };
+		B0AFD9ED07C27BBB773BEF9E /* Pods-AlamofireStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireStudy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlamofireStudy/Pods-AlamofireStudy.debug.xcconfig"; sourceTree = "<group>"; };
+		B1E4134229B6F05E9A42E07F /* Pods-AlamofireStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireStudy.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlamofireStudy/Pods-AlamofireStudy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E23B983AE25CB7F1823C83C6 /* Pods_AlamofireStudy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +85,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F21B3E1323F0327546BD09D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0AFD9ED07C27BBB773BEF9E /* Pods-AlamofireStudy.debug.xcconfig */,
+				B1E4134229B6F05E9A42E07F /* Pods-AlamofireStudy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		918389D99A50B3F3818CE7C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A107D394217C194D4469D75C /* Pods_AlamofireStudy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A4B659581F9F31A8004DC255 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				A4B659781F9F31A9004DC255 /* AlamofireStudyTests */,
 				A4B659831F9F31A9004DC255 /* AlamofireStudyUITests */,
 				A4B659621F9F31A8004DC255 /* Products */,
+				1F21B3E1323F0327546BD09D /* Pods */,
+				918389D99A50B3F3818CE7C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +127,9 @@
 		A4B659631F9F31A8004DC255 /* AlamofireStudy */ = {
 			isa = PBXGroup;
 			children = (
+				A4B659921F9F31EB004DC255 /* HttpMapper.swift */,
+				A4B659931F9F31EB004DC255 /* NetworkTools.swift */,
+				A4B659941F9F31EB004DC255 /* URLRouter.swift */,
 				A4B659641F9F31A8004DC255 /* AppDelegate.swift */,
 				A4B659661F9F31A8004DC255 /* ViewController.swift */,
 				A4B659681F9F31A8004DC255 /* Main.storyboard */,
@@ -132,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4B659891F9F31A9004DC255 /* Build configuration list for PBXNativeTarget "AlamofireStudy" */;
 			buildPhases = (
+				93BF3E15FC76F6704F7FAF90 /* [CP] Check Pods Manifest.lock */,
 				A4B6595D1F9F31A8004DC255 /* Sources */,
 				A4B6595E1F9F31A8004DC255 /* Frameworks */,
 				A4B6595F1F9F31A8004DC255 /* Resources */,
+				F704124AA1CF2CD7333F6CE7 /* [CP] Embed Pods Frameworks */,
+				D1074293BE56A4015B904A61 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +229,7 @@
 				TargetAttributes = {
 					A4B659601F9F31A8004DC255 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = W8ZBWMZ89E;
 						ProvisioningStyle = Automatic;
 					};
 					A4B659741F9F31A9004DC255 = {
@@ -254,11 +291,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		93BF3E15FC76F6704F7FAF90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D1074293BE56A4015B904A61 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlamofireStudy/Pods-AlamofireStudy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F704124AA1CF2CD7333F6CE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlamofireStudy/Pods-AlamofireStudy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A4B6595D1F9F31A8004DC255 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4B659961F9F31EB004DC255 /* NetworkTools.swift in Sources */,
+				A4B659951F9F31EB004DC255 /* HttpMapper.swift in Sources */,
+				A4B659971F9F31EB004DC255 /* URLRouter.swift in Sources */,
 				A4B659671F9F31A8004DC255 /* ViewController.swift in Sources */,
 				A4B659651F9F31A8004DC255 /* AppDelegate.swift in Sources */,
 			);
@@ -412,8 +500,10 @@
 		};
 		A4B6598A1F9F31A9004DC255 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0AFD9ED07C27BBB773BEF9E /* Pods-AlamofireStudy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W8ZBWMZ89E;
 				INFOPLIST_FILE = AlamofireStudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lewwei.AlamofireStudy;
@@ -424,8 +514,10 @@
 		};
 		A4B6598B1F9F31A9004DC255 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1E4134229B6F05E9A42E07F /* Pods-AlamofireStudy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W8ZBWMZ89E;
 				INFOPLIST_FILE = AlamofireStudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lewwei.AlamofireStudy;
@@ -507,6 +599,7 @@
 				A4B6598B1F9F31A9004DC255 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4B6598C1F9F31A9004DC255 /* Build configuration list for PBXNativeTarget "AlamofireStudyTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +608,7 @@
 				A4B6598E1F9F31A9004DC255 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4B6598F1F9F31A9004DC255 /* Build configuration list for PBXNativeTarget "AlamofireStudyUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +617,7 @@
 				A4B659911F9F31A9004DC255 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
